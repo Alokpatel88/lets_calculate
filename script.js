@@ -1,5 +1,12 @@
 let input = document.getElementById('inputBox');
 let buttons = document.querySelectorAll('button');
+const myButton = document.getElementById('myButton');
+
+// Add event listener for the 'click' event
+myButton.addEventListener('click', function() {
+  // Toggle the 'pressed' class on the button
+  myButton.classList.toggle('pressed');
+});
 
 let string = "";
 let arr = Array.from(buttons);
