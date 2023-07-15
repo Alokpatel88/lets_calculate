@@ -57,6 +57,10 @@ button{
     
    box-shadow: -8px 8px 10px rgb(8, 4, 11);
 }
+.pressed {
+  background-color: #ccc;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 .equlebtn{
     /* color: orange; */
     background-color: orange;
